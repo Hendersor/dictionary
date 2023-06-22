@@ -1,0 +1,16 @@
+{
+     "compilerOptions": {
+       "target": "es6",
+       "module": "esnext",
+       "jsx": "react",
+       "strict": true,
+       "esModuleInterop": true,
+       "moduleResolution": "node",
+       "baseUrl": "./src",
+       "paths": {
+         "*": ["*", "src/*"]
+       }
+     },
+     "include": ["src/**/*.ts", "src/**/*.tsx"],
+     "exclude": ["node_modules"]
+   }
