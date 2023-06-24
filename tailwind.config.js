@@ -5,7 +5,14 @@ module.exports = {
     "./src/styles/**/*.css",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        searchBar: "#fbfbfb",
+        fondoPlay: "#eacffc",
+        iconoPlay: "#a645ef",
+        iconoLupa: "#bd96d9",
+      },
+    },
   },
   plugins: [],
 };

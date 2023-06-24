@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/tailwind.css"
-
+import { Nav } from "./Nav";
 
 const App = () => {
      return(
           <main>
-               <h1 className="text-red-700">Hola!</h1>
+               <Nav/>
           </main>
      )
 }
