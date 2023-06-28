@@ -12,6 +12,9 @@ module.exports = {
         iconoPlay: "#a645ef",
         iconoLupa: "#bd96d9",
       },
+      fontFamily: {
+        mono: ["Space Mono", "monospace"],
+      },
     },
   },
   plugins: [],
