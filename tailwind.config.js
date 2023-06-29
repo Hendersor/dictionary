@@ -11,9 +11,10 @@ module.exports = {
         fondoPlay: "#eacffc",
         iconoPlay: "#a645ef",
         iconoLupa: "#bd96d9",
+        wordMeaning: "#757575",
       },
       fontFamily: {
-        mono: ["Space Mono", "monospace"],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },

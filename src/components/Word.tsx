@@ -3,7 +3,7 @@ import {ImPlay3} from 'react-icons/im'
 
 const Word = () => {
      return(
-          <div className='w-full h-20 flex justify-between items-center px-2'>
+          <div className='w-full h-20 flex justify-between items-center px-4'>
                <div className='h-full w-1/2 flex flex-col content-center justify-center'>
                     <h1 className='font-bold text-3xl'>keyboard</h1>
                     <p className='text-[#a645ef]'>/ˈkiːbɔːd/</p>

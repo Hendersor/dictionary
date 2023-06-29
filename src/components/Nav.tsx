@@ -14,7 +14,7 @@ const Nav = () => {
 
 
                <div className='w-full h-1/2 flex items-center justify-center'>
-                    <div className='rounded-3xl bg-[#f8eeee] w-full h-3/4 flex items-center justify-center px-2'>
+                    <div className='rounded-3xl bg-[#f8eeee] w-full h-3/4 flex items-center justify-center px-4'>
                          <input type="text" className='w-full h-full rounded-3xl bg-[#f8eeee] ' placeholder='Search'/>
                          <FiSearch className='text-2xl text-[#bd96d9]'/>
                     </div>

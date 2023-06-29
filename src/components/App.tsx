@@ -2,14 +2,14 @@ import React from "react";
 import "../styles/tailwind.css"
 import { Nav } from "./Nav";
 import { Word } from "./Word";
-import { Noun } from "./Noun";
+import { Description } from "./Description";
 
 const App = () => {
      return(
-          <main className="font-['Space_Mono']">
+          <main className="font-['Inter']">
                <Nav/>
                <Word/>   
-               <Noun/>
+               <Description/>
           </main>
      )
 }
