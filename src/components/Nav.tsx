@@ -1,6 +1,8 @@
 import React from 'react'
+import { Toggle } from './Toggle'
 import {BiBookAlt} from 'react-icons/bi'
 import {FiSearch} from 'react-icons/fi'
+import {CiDark} from 'react-icons/ci'
 
 const Nav = () => {
      return(
@@ -9,6 +11,11 @@ const Nav = () => {
                     <figure className='w-full h-full flex items-center'>
                          <BiBookAlt className='text-5xl text-slate-600'/>
                     </figure>
+
+                    <div className="h-full w-28 flex items-center justify-between md:w-24">
+                         <Toggle/>
+                         <CiDark className='text-3xl'/> 
+                    </div>
                </div>
 
 
